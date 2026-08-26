@@ -1,10 +1,14 @@
-# Goes on OrangePi 5
+# Goes on the OrangePi 5
 
 cmake_minimum_required(VERSION 3.10)
 project(ZenithVision)
+
 set(CMAKE_CXX_STANDARD 17)
 
+# Find OpenCV
 find_package(OpenCV REQUIRED)
+
+# Link RKNN and WPILib components
 set(RKNN_LIB "rknnrt")
 set(WPI_LIBS "ntcore" "wpiutil" "wpinet")
 
