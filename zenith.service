@@ -1,0 +1,14 @@
+[Unit]
+Description=Zenith Vision Engine
+After=network.target
+
+[Service]
+Type=simple
+User=orangepi
+WorkingDirectory=/home/orangepi/Zenith/build
+ExecStart=/home/orangepi/Zenith/build/zenith_vision
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
