@@ -4,8 +4,8 @@ Zenith is a high-performance, NPU-accelerated object detection system designed f
 ## Features
 * **NPU Accelerated:** Runs YOLOv8 models at 60+ FPS using the RK3588 NPU (INT8).
 * **Pose Estimation:** Calculates distance and yaw using camera intrinsics and trigonometry.
-* **Angled Mount Compensation:** Built-in math to handle cameras mounted on tilted intake bars.
-* **Target Clustering:** Automatically groups multiple game pieces and finds the center of the "pile."
+* **Angled Mount Compensation:** Built-in math to handle cameras mounted on non-level surfaces.
+* **Target Clustering:** Automatically groups multiple game pieces and finds the center of the "cluster".
 * **NT4 Integration:** Communicates directly with the RoboRIO using high-speed NetworkTables.
 
 ---
