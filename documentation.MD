@@ -1,8 +1,7 @@
-# Zenith (FRC 9015)
-
+# Zenith
 Zenith is a high-performance, NPU-accelerated object detection system designed for the Orange Pi 5 developed by FRC Team 9015. It detects game pieces, calculates their 3D position relative to the robot's center, and handles clustering for multiple targets.
 
-## 📋 Features
+## Features
 * **NPU Accelerated:** Runs YOLOv8 models at 60+ FPS using the RK3588 NPU (INT8).
 * **Pose Estimation:** Calculates distance and yaw using camera intrinsics and trigonometry.
 * **Angled Mount Compensation:** Built-in math to handle cameras mounted on tilted intake bars.
